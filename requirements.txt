@@ -1,1 +1,15 @@
+# Core
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
 
+# Widgets
+ipywidgets>=8.1
+
+# for reading Excel files
+xlrd>=2.0.1
+
+# Data manipulation
+pandas
+statsmodels
+pymc
