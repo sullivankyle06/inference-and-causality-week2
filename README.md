@@ -1,4 +1,4 @@
-# Session 3 — Inference and Causality
+# Session 3 and 4 — Inference and Causality
 
 This repository contains the materials for **Session X** of *Course Y*.  
 - Slides: see [`slides/`](./slides/) folder  
@@ -11,6 +11,7 @@ This repository contains the materials for **Session X** of *Course Y*.
 ## Overview
 This week transitions from **discrete Bayesian reasoning** (cookies, dice, Monty Hall)  
 to **continuous inference**, **Fisher Information**, and finally to **sampling-based inference** using **Markov Chain Monte Carlo (MCMC)**.
+Second unit, covers the general topic of **Correlation** vs **Causation**, **Pearson correlation coefficeint**, **granger causality** and **DAGs**
 
 We ask:
 > What happens when we can no longer count outcomes — or integrate analytically?
@@ -24,6 +25,7 @@ We ask:
 - Quantify **information** in data through Fisher Information  
 - Grasp the motivation behind **Monte Carlo** and **MCMC** methods  
 - Build intuition for sampling as an approximation to integration
+- Learn about **Pearson correlation coefficeint**, **granger causality** and **DAGs**
 
 ---
 
@@ -35,6 +37,7 @@ We ask:
 | 2 | `2_InferenceAndCausality_Week2_FisherInformation.ipynb` | **Fisher Information** | Explores how the curvature of the log-likelihood reflects the precision of our estimates. Includes a Think Bayes–style interactive notebook. |
 | 3 | `3_InferenceAndCausality_Week2_Distributions.ipynb` | **Conjugate Priors** | Review and glossary of common likelihood–prior pairs (Beta–Binomial, Gamma–Poisson, Normal–Normal). Includes a short “Conjugate Match Game.” |
 | 4 | `4_InferenceAndCausality_Week2_MCMC_analogy.ipynb` | **MCMC Analogy** | Introduces Markov Chain Monte Carlo through an intuitive analogy (random walker). Students visualize how MCMC “samples” from a posterior. Ends with a reflection question. |
+| 5 | `4_InferenceAndCausality_Week2_CorrelationVsCausation.ipynb` | **Pearson and Granger** | Contains a few examples of Pearson correlation coefficient calculation and granger causality checks for timeseries.|
 
 ---
 
@@ -44,13 +47,17 @@ We ask:
 2. **Notebook 2** — explore Fisher Information interactively  
 3. **Notebook 3** — identify conjugate pairs and connect to Bayesian updating  
 4. **Notebook 4** — play with the MCMC analogy and answer the reflection question
+4. **Notebook 4** — calculate a few coefficieints and fill out exercise cell.
+
 
 ---
 
 ## Materials
 
 Slides for this week:  
-`/slides/Inference_and_Causality_W2_Statistical_Inference.pdf`
+`/slides/Inference_and_Causality_W2_Statistical_Inference_S3.pdf`
+`/slides/Inference_and_Causality_W2_Statistical_Inference_S4.pdf`
+
 
 Additional readings:  
 - Allen Downey, *Think Bayes 2*, Chapters 3–4  
@@ -61,8 +68,8 @@ Additional readings:
 
 ## Homework
 
-- Complete the exercises in **Notebook 1**, **2**, and **4**  
-- Commit your answers to GitHub before submission  
+- Complete the exercises in **Notebook 1**, **2**,**4** and **5** .
+- Commit your answers to GitHub for submission  
 - Reflect: *What’s the main trade-off between analytical and sampling-based inference?*
 
 
